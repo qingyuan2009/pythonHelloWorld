@@ -1,0 +1,78 @@
+{
+  "resourceType": "Patient",
+  "id": "8e9e9fb1-aab5-447b-9d72-3013775727a9",
+  "meta": {
+    "profile": [
+      "http://sap.com/healthcare/PatActg/fhir/StructureDefinition/patient-sap"
+    ],
+    "versionId": "6c51f8a4-6a39-4a73-90be-91e5317d0649",
+    "lastUpdated": "2021-08-03T03:23:09.425Z"
+  },
+  "extension": [
+    {
+      "url": "http://sap.com/healthcare/fhir/StructureDefinition/institution",
+      "valueReference": {
+        "reference": "Organization/5040a7cc-de6a-4961-b1f9-fb9fad39963a"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://sap-model-clinic.com",
+      "value": "AY007611"
+    },
+    {
+      "use": "official",
+      "system": "http://sap-model-clinic.com",
+      "value": "PatientHipReplacement"
+    },
+    {
+      "system": "https://fhir-core-svc-prerelease.cfapps.eu10.hana.ondemand.com",
+      "use": "secondary",
+      "value": "8e9e9fb1-aab5-447b-9d72-3013775727a9"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "given": [
+        "Julia"
+      ],
+      "family": "Sommer",
+      "text": "Julia Sommer"
+    }
+  ],
+  "birthDate": "1950-03-01",
+  "gender": "female",
+  "address": [
+    {
+      "use": "home",
+      "type": "both",
+      "text": "Rudolf-Diesel-Strasse 2, 69115 Heidelberg, Germany",
+      "postalCode": "69115",
+      "city": "Heidelberg",
+      "country": "Germany",
+      "line": [
+        "Rudolf-Diesel-Strasse 2"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "use": "home",
+      "system": "phone",
+      "value": "06221/22346"
+    },
+    {
+      "use": "mobile",
+      "system": "phone",
+      "value": "0151/785345"
+    },
+    {
+      "use": "home",
+      "system": "email",
+      "value": "julia.sommer@postfach.de"
+    }
+  ]
+}

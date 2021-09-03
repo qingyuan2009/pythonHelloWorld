@@ -1,0 +1,376 @@
+{
+	"resourceType": "Bundle",
+	"id": "f001",
+	"type": "collection",
+	"total": 1,
+	"entry": [
+		{
+			"fullUrl": "http://sap.com/healthcare/PatActg/fhir/StructureDefinition/ReviewAutomatedBilling",
+			"resource": {
+				"resourceType": "StructureDefinition",
+				"id": "ReviewAutomatedBilling",
+				"meta": {
+					"profile": [
+						"http://sap.com/healthcare/fhir/StructureDefinition/ViewDefinition"
+					],
+					"versionId": "c015db40-f163-4631-b086-9deea75cdedf",
+					"lastUpdated": "2021-02-22T16:40:25.953Z"
+				},
+				"extension": [
+					{
+						"url": "http://sap.com/healthcare/fhir/StructureDefinition/StructureDefinition-transformationExtension",
+						"valueString": "Not relevant for this demo."
+					}
+				],
+				"url": "http://sap.com/healthcare/PatActg/fhir/StructureDefinition/ReviewAutomatedBilling",
+				"version": "1.0.0",
+				"name": "ReviewAutomatedBilling",
+				"status": "draft",
+				"date": "2020-07-01T22:37:54+11:00",
+				"publisher": "SAP Health",
+				"description": "Manage Billing Exceptions for Patient Accounting.",
+				"fhirVersion": "4.0.0",
+				"kind": "resource",
+				"abstract": false,
+				"type": "ReviewAutomatedBilling",
+				"baseDefinition": "http://hl7.org/fhir/StructureDefinition/DomainResource",
+				"derivation": "specialization",
+				"snapshot": {
+					"element": [
+						{
+							"id": "ReviewAutomatedBilling",
+							"path": "ReviewAutomatedBilling",
+							"short": "Information for the UI",
+							"definition": "ReviewAutomatedBilling UI Page.",
+							"alias": [
+								"SubjectOfCare Client Resident"
+							],
+							"min": 0,
+							"max": "*",
+							"base": {
+								"path": "ReviewAutomatedBilling",
+								"min": 0,
+								"max": "*"
+							},
+							"isModifier": false,
+							"isSummary": false
+						},
+						{
+							"id": "ReviewAutomatedBilling.id",
+							"path": "ReviewAutomatedBilling.id",
+							"short": "Logical id of this artifact",
+							"definition": "Account.id",
+							"comment": "The only time that a resource does not have an id is when it is being submitted to the server using a create operation.",
+							"min": 1,
+							"max": "1",
+							"base": {
+								"path": "Resource.id",
+								"min": 0,
+								"max": "1"
+							},
+							"type": [
+								{
+									"code": "id"
+								}
+							],
+							"isModifier": false,
+							"isSummary": true
+						},
+            {
+              "id": "ReviewAutomatedBilling.meta",
+              "path": "ReviewAutomatedBilling.meta",
+              "short": "Metadata about the resource",
+              "definition": "The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.",
+              "min": 0,
+              "max": "1",
+              "base": {
+                "path": "Resource.meta",
+                "min": 0,
+                "max": "1"
+              },
+              "type": [
+                {
+                  "code": "Meta"
+                }
+              ],
+              "constraint": [
+                {
+                  "key": "ele-1",
+                  "severity": "error",
+                  "human": "All FHIR elements must have a @value or children",
+                  "expression": "hasValue() or (children().count() > id.count())",
+                  "xpath": "@value|f:*|h:div",
+                  "source": "http://hl7.org/fhir/StructureDefinition/Element"
+                }
+              ],
+              "isModifier": false,
+              "isSummary": true
+            },
+						{
+							"id": "ReviewAutomatedBilling.department",
+							"path": "ReviewAutomatedBilling.department",
+							"short": "Discharging Department",
+              "label": "Department Name",
+							"definition": "Account.owner.name",
+							"comment": "Codes may be defined very casually in enumerations or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.",
+							"min": 0,
+							"max": "1",
+							"base": {
+								"path": "ReviewAutomatedBilling.department",
+								"min": 1,
+								"max": "1"
+							},
+							"type": [
+								{
+									"code": "string"
+								}
+							]
+						},
+						{
+							"id": "ReviewAutomatedBilling.payer",
+							"path": "ReviewAutomatedBilling.payer",
+							"short": "Insurance Provider",
+              "label": "Payor",
+							"definition": "Account.coverage.coverage.name",
+							"comment": "Codes may be defined very casually in enumerations or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.",
+							"min": 1,
+							"max": "1",
+							"base": {
+								"path": "ReviewAutomatedBilling.payer",
+								"min": 1,
+								"max": "1"
+							},
+							"type": [
+								{
+									"code": "string"
+								}
+							]
+						},
+						{
+							"id": "ReviewAutomatedBilling.startDate",
+							"path": "ReviewAutomatedBilling.startDate",
+							"short": "Admission Date",
+              "label": "Admission Date",
+							"definition": "Account.patient.name.text",
+							"comment": "Codes may be defined very casually in enumerations or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.",
+							"min": 1,
+							"max": "1",
+							"base": {
+								"path": "ReviewAutomatedBilling.startDate",
+								"min": 1,
+								"max": "1"
+							},
+							"type": [
+								{
+									"code": "date"
+								}
+							]
+						},
+            {
+              "id": "ReviewAutomatedBilling.endDate",
+              "path": "ReviewAutomatedBilling.endDate",
+              "short": "Discharge Date",
+              "label": "Discharge Date",
+              "definition": "Account.patient.name.text",
+              "comment": "Codes may be defined very casually in enumerations or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.",
+              "min": 1,
+              "max": "1",
+              "base": {
+                "path": "ReviewAutomatedBilling.endDate",
+                "min": 1,
+                "max": "1"
+              },
+              "type": [
+                {
+                  "code": "date"
+                }
+              ]
+            },
+						{
+							"id": "ReviewAutomatedBilling.patientDOB",
+							"path": "ReviewAutomatedBilling.patientDOB",
+							"short": "Date of Birth",
+              "label": "Birth Date",
+							"definition": "Account.patient.birthDate",
+							"comment": "Codes may be defined very casually in enumerations or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.",
+							"min": 1,
+							"max": "1",
+							"base": {
+								"path": "ReviewAutomatedBilling.patientDOB",
+								"min": 1,
+								"max": "1"
+							},
+							"type": [
+								{
+									"code": "date"
+								}
+							]
+						},
+            {
+              "id": "ReviewAutomatedBilling.patientId",
+              "path": "ReviewAutomatedBilling.patientId",
+              "short": "Patient Id",
+              "label": "Patient Id",
+              "definition": "Account.patient.birthDate",
+              "comment": "Codes may be defined very casually in enumerations or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.",
+              "min": 1,
+              "max": "1",
+              "base": {
+                "path": "ReviewAutomatedBilling.patientId",
+                "min": 1,
+                "max": "1"
+              },
+              "type": [
+                {
+                  "code": "string"
+                }
+              ]
+            },
+            {
+              "id": "ReviewAutomatedBilling.billingCaseNumber",
+              "path": "ReviewAutomatedBilling.billingCaseNumber",
+              "short": "Billing Case Number",
+              "label": "Billing Case Number",
+              "definition": "Account.patient.birthDate",
+              "comment": "Codes may be defined very casually in enumerations or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.",
+              "min": 1,
+              "max": "1",
+              "base": {
+                "path": "ReviewAutomatedBilling.billingCaseNumber",
+                "min": 1,
+                "max": "1"
+              },
+              "type": [
+                {
+                  "code": "string"
+                }
+              ]
+            },
+            {
+              "id": "ReviewAutomatedBilling.DRG",
+              "path": "ReviewAutomatedBilling.DRG",
+              "short": "DRG",
+              "label": "DRG",
+              "definition": "Account.patient.birthDate",
+              "comment": "Codes may be defined very casually in enumerations or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.",
+              "min": 0,
+              "max": "1",
+              "base": {
+                "path": "ReviewAutomatedBilling.DRG",
+                "min": 0,
+                "max": "1"
+              },
+              "type": [
+                {
+                  "code": "code"
+                }
+              ],
+              "binding": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+                    "valueString": "ReviewAutomatedBilling"
+                  }
+                ],
+                "strength": "example",
+                "description": "The usage type of this account, permits categorization of accounts.",
+                "valueSet": "http://sap.com/healthcare/PatActg/fhir/ValueSet/DRG-Code"
+              },
+              "mapping": [
+                {
+                  "identity": "w5",
+                  "map": "FiveWs.class"
+                },
+                {
+                  "identity": "rim",
+                  "map": ".code"
+                }
+              ]
+            },
+            {
+              "id": "ReviewAutomatedBilling.patientFirstName",
+              "path": "ReviewAutomatedBilling.patientFirstName",
+              "short": "Patient First Name",
+              "label": "Patient First Name",
+              "definition": "Account.patient.birthDate",
+              "comment": "Codes may be defined very casually in enumerations or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.",
+              "min": 1,
+              "max": "1",
+              "base": {
+                "path": "ReviewAutomatedBilling.patientFirstName",
+                "min": 1,
+                "max": "1"
+              },
+              "type": [
+                {
+                  "code": "string"
+                }
+              ]
+            },
+            {
+              "id": "ReviewAutomatedBilling.patientLastName",
+              "path": "ReviewAutomatedBilling.patientLastName",
+              "short": "Patient Last Name",
+              "label": "Patient Last Name",
+              "definition": "Account.patient.birthDate",
+              "comment": "Codes may be defined very casually in enumerations or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.",
+              "min": 1,
+              "max": "1",
+              "base": {
+                "path": "ReviewAutomatedBilling.patientLastName",
+                "min": 1,
+                "max": "1"
+              },
+              "type": [
+                {
+                  "code": "string"
+                }
+              ]
+            },
+            {
+              "id": "ReviewAutomatedBilling.billingScenario",
+              "path": "ReviewAutomatedBilling.billingScenario",
+              "short": "Billing Scenario",
+              "label": "Billing Scenario",
+              "definition": "Account.patient.birthDate",
+              "comment": "Codes may be defined very casually in enumerations or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.",
+              "min": 1,
+              "max": "1",
+              "base": {
+                "path": "ReviewAutomatedBilling.billingScenario",
+                "min": 1,
+                "max": "1"
+              },
+              "type": [
+                {
+                  "code": "code"
+                }
+              ],
+              "binding": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+                    "valueString": "ExceptionAccountType"
+                  }
+                ],
+                "strength": "example",
+                "description": "The usage type of this account, permits categorization of accounts.",
+                "valueSet": "http://sap.com/healthcare/PatActg/fhir/ValueSet/billing-scenario"
+              },
+              "mapping": [
+                {
+                  "identity": "w5",
+                  "map": "FiveWs.class"
+                },
+                {
+                  "identity": "rim",
+                  "map": ".code"
+                }
+              ]
+            }
+					]
+				}
+			}
+		}
+	]
+}				 

@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "expansion": {
+    "identifier": "d8a56b66-d90f-4cce-935e-26ce93bc0bb2",
+    "timestamp": "2021-02-24T10:23:22.836Z",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "url",
+        "valueUri": "http://sap.com/healthcare/PatActg/fhir/ValueSet/DRG-Code"
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://sap.com/healthcare/fhir/CodeSystem/DRG-Code",
+        "code": "147C",
+        "display": "Hochschulambulanz"
+      },
+      {
+        "system": "http://sap.com/healthcare/fhir/CodeSystem/DRG-Code",
+        "code": "H05Z",
+        "display": "Ambulantes Operieren"
+      },
+      {
+        "system": "http://sap.com/healthcare/fhir/CodeSystem/DRG-Code",
+        "code": "I09G",
+        "display": "Psychiatrische Institutsambulanz"
+      }
+    ]
+  }
+}

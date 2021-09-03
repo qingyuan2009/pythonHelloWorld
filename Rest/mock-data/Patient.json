@@ -1,0 +1,266 @@
+{
+  "resourceType": "Bundle",
+  "id": "baf7e5e3-975f-470e-b189-e5b16feb4c99",
+  "type": "searchset",
+  "total": 6,
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:779781cf-6a58-45c3-b815-96cde9cae067",
+      "resource": {
+        "resourceType": "Patient",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Cristiano <b>SPENCE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>12 March 1980</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "value": "P00120"
+          },
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "779781cf-6a58-45c3-b815-96cde9cae067"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Bechtelar",
+            "family": "SpenceBechtelar",
+            "given": [
+              "CristianoBechtelar",
+              "LeoBechtelar"
+            ]
+          }
+        ],
+        "managingOrganization": {
+          "reference": "Organization/58857841-2a5c-4416-8150-dd28f6fc57e1"
+        },
+        "gender": "male",
+        "birthDate": "1980-03-12",
+        "id": "779781cf-6a58-45c3-b815-96cde9cae067",
+        "meta": {
+          "versionId": "02d9437f-731e-4179-9dcd-e114422c3308",
+          "lastUpdated": "2021-02-21T16:23:45.569Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:76464c2f-3e73-4754-8f20-21dc66e083db",
+      "resource": {
+        "resourceType": "Patient",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Cristiano <b>SPENCE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>12 March 1980</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "value": "P00144"
+          },
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "76464c2f-3e73-4754-8f20-21dc66e083db"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Lakin",
+            "family": "SpenceLakin",
+            "given": [
+              "CristianoLakin",
+              "LeoLakin"
+            ]
+          }
+        ],
+        "managingOrganization": {
+          "reference": "Organization/78051927-0a4a-4d96-a156-76fb09b22480"
+        },
+        "gender": "male",
+        "birthDate": "1980-03-12",
+        "id": "76464c2f-3e73-4754-8f20-21dc66e083db",
+        "meta": {
+          "versionId": "119ef824-a94e-46d6-b633-ddca464376d5",
+          "lastUpdated": "2021-02-21T16:20:47.974Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:67687171-e76c-442f-a2bf-7772988730a0",
+      "resource": {
+        "resourceType": "Patient",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Cristiano <b>SPENCE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>12 March 1980</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "value": "P00111"
+          },
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "67687171-e76c-442f-a2bf-7772988730a0"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Turcotte",
+            "family": "SpenceTurcotte",
+            "given": [
+              "CristianoTurcotte",
+              "LeoTurcotte"
+            ]
+          }
+        ],
+        "managingOrganization": {
+          "reference": "Organization/51c95b15-22ce-4596-956d-f521b88c75d6"
+        },
+        "gender": "male",
+        "birthDate": "1980-03-12",
+        "id": "67687171-e76c-442f-a2bf-7772988730a0",
+        "meta": {
+          "versionId": "11aa16cf-3e83-4adf-a04a-8e79f8493206",
+          "lastUpdated": "2021-02-21T16:24:50.407Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:48c650c3-80d7-4114-be06-f39e021612e0",
+      "resource": {
+        "resourceType": "Patient",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Cristiano <b>SPENCE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>12 March 1980</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "value": "P00133"
+          },
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "48c650c3-80d7-4114-be06-f39e021612e0"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Brown",
+            "family": "SpenceBrown",
+            "given": [
+              "CristianoBrown",
+              "LeoBrown"
+            ]
+          }
+        ],
+        "managingOrganization": {
+          "reference": "Organization/cf4b0b3f-c2d9-4129-bccd-e8f21a7090c3"
+        },
+        "gender": "male",
+        "birthDate": "1980-03-12",
+        "id": "48c650c3-80d7-4114-be06-f39e021612e0",
+        "meta": {
+          "versionId": "15dba6b4-b9e6-457c-96d4-7864ac3f00e9",
+          "lastUpdated": "2021-02-21T16:22:09.928Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fb401a1d-4f23-450b-ae86-fb549a48b3a8",
+      "resource": {
+        "resourceType": "Patient",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Cristiano <b>SPENCE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>12 March 1980</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "value": "P00126"
+          },
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "fb401a1d-4f23-450b-ae86-fb549a48b3a8"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Rempel",
+            "family": "SpenceRempel",
+            "given": [
+              "CristianoRempel",
+              "LeoRempel"
+            ]
+          }
+        ],
+        "managingOrganization": {
+          "reference": "Organization/e660a7d2-51c6-43fa-97f8-80562c711c5b"
+        },
+        "gender": "male",
+        "birthDate": "1980-03-12",
+        "id": "fb401a1d-4f23-450b-ae86-fb549a48b3a8",
+        "meta": {
+          "versionId": "17e97c4b-6722-4008-98ee-e67491522ce2",
+          "lastUpdated": "2021-02-21T16:23:02.051Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4f04af53-9b33-46a7-9be9-39a0757b2a12",
+      "resource": {
+        "resourceType": "Patient",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Cristiano <b>SPENCE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>12 March 1980</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "value": "P00101"
+          },
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "4f04af53-9b33-46a7-9be9-39a0757b2a12"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Larson",
+            "family": "SpenceLarson",
+            "given": [
+              "CristianoLarson",
+              "LeoLarson"
+            ]
+          }
+        ],
+        "managingOrganization": {
+          "reference": "Organization/1cf1e71f-a895-433b-a318-7a526bbf2050"
+        },
+        "gender": "male",
+        "birthDate": "1980-03-12",
+        "id": "4f04af53-9b33-46a7-9be9-39a0757b2a12",
+        "meta": {
+          "versionId": "1abad33a-f468-4305-a884-13d88cc48a48",
+          "lastUpdated": "2021-02-21T16:26:02.901Z"
+        }
+      }
+    }
+    ]
+}

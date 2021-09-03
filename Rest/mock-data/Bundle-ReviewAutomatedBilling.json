@@ -1,0 +1,268 @@
+{
+  "resourceType": "Bundle",
+  "id": "0e3474e7-cf2b-43b1-afe8-ec9e3bf15919",
+  "total": 10,
+  "type": "searchset",
+   "entry": [
+     {
+       "fullUrl": "urn:uuid:3ee11969-b242-456e-876e-ab697974e77d",
+       "resource": {
+         "id": "3ee11969-b242-456e-876e-ab697974e77d",
+         "resourceType": "ReviewAutomatedBilling",
+         "billingCaseNumber": "A0011",
+         "startDate": "2020-04-03 08:00:00.0",
+         "endDate": "2020-05-29 08:30:00.0",
+         "patientName": "Carter",
+         "patientId": "P0011",
+         "patientDOB": "1980-03-12",
+         "payer": "CarterMoney dump insurance Inc",
+         "department": "CarterDepartment 1",
+         "billingScenario": "AOP",
+         "DRG": "I09G",
+         "note": [
+           "Parent Account created for billing"
+         ],
+         "patientGender": "male",
+         "accountVersion": "b63e1171-acf6-4f56-84a5-8b8d08278e42",
+         "patientVersion": "c390ed25-a41e-4f79-9cb2-9b687c87e31a",
+         "payorVersion": "580d9ba1-34cf-4898-86a7-6e17b7ee1dc6",
+         "departmentVersion": "12ce85c7-e7a6-46b1-a47f-32a5152f1966",
+         "coverageAccountId": "urn:uuid:ffd36689-d127-4483-a077-91f6b9d3de59"
+       }
+     },
+     {
+       "fullUrl": "urn:uuid:9248d833-3dfa-422f-8668-fffce3f371da",
+       "resource": {
+         "id": "9248d833-3dfa-422f-8668-fffce3f371da",
+         "resourceType": "ReviewAutomatedBilling",
+         "billingCaseNumber": "A0088",
+         "startDate": "2020-04-05 08:00:00.0",
+         "endDate": "2020-05-29 08:30:00.0",
+         "patientName": "Casper",
+         "patientId": "P0088",
+         "patientDOB": "1980-03-12",
+         "payer": "CasperMoney dump insurance Inc",
+         "department": "CasperDepartment 1",
+         "billingScenario": "AOP",
+         "DRG": "I09G",
+         "note": [
+           "Parent Account created for billing"
+         ],
+         "patientGender": "male",
+         "accountVersion": "22c3d309-f3b4-4f66-90af-a529d237b2ee",
+         "patientVersion": "4def9cce-151b-4823-a129-af978e159754",
+         "payorVersion": "42f6e8f6-af19-426c-946e-7c63b113b521",
+         "departmentVersion": "15c3ccb8-a889-4c84-89e1-b5a1105ac282",
+         "coverageAccountId": "urn:uuid:3572ca0f-f7fa-4026-a9a6-b18f7c96ae85"
+       }
+     },
+     {
+       "fullUrl": "urn:uuid:7c72a7f8-0dad-431c-b4f5-05a3784a3715",
+       "resource": {
+         "id": "7c72a7f8-0dad-431c-b4f5-05a3784a3715",
+         "resourceType": "ReviewAutomatedBilling",
+         "billingCaseNumber": "A0070",
+         "startDate": "2020-04-05 08:00:00.0",
+         "endDate": "2020-05-29 08:30:00.0",
+         "patientName": "Cole",
+         "patientId": "P0070",
+         "patientDOB": "1980-03-12",
+         "payer": "ColeMoney dump insurance Inc",
+         "department": "ColeDepartment 1",
+         "billingScenario": "AOP",
+         "DRG": "I09G",
+         "note": [
+           "Parent Account created for billing"
+         ],
+         "patientGender": "male",
+         "accountVersion": "a81006fb-30fd-4349-b34d-7156ad47904a",
+         "patientVersion": "7c10554c-19bf-4d2c-962a-d3ce947aa1d5",
+         "payorVersion": "f9dc2647-30bd-449a-8d9a-9c7e9de4f67e",
+         "departmentVersion": "c487fe78-b74b-408d-b713-79522257ec73",
+         "coverageAccountId": "urn:uuid:4b61febc-a5c8-4a77-9d29-230c7ea83a8f"
+       }
+     },
+     {
+       "fullUrl": "urn:uuid:e13019ec-400f-4bda-9329-45f7b9eb83a9",
+       "resource": {
+         "id": "e13019ec-400f-4bda-9329-45f7b9eb83a9",
+         "resourceType": "ReviewAutomatedBilling",
+         "billingCaseNumber": "A0071",
+         "startDate": "2020-04-08 08:00:00.0",
+         "endDate": "2020-05-29 08:30:00.0",
+         "patientName": "Collier",
+         "patientId": "P0071",
+         "patientDOB": "1980-03-12",
+         "payer": "CollierMoney dump insurance Inc",
+         "department": "CollierDepartment 1",
+         "billingScenario": "AOP",
+         "DRG": "I09G",
+         "note": [
+           "Parent Account created for billing"
+         ],
+         "patientGender": "male",
+         "accountVersion": "21157ffc-aec4-4001-870e-c4abac2f4e93",
+         "patientVersion": "bdb793dd-db46-442f-b2e7-d38476699a16",
+         "payorVersion": "a5885393-8545-4f34-a832-cce638db3d4c",
+         "departmentVersion": "f0aa6dd8-96a4-4862-bbf3-dc371d6a63e2",
+         "coverageAccountId": "urn:uuid:4697b5f9-a5b1-4fbe-8a89-9d52f4b51ee3"
+       }
+     },
+     {
+       "fullUrl": "urn:uuid:14d1dfbb-6814-4299-97dc-cc730542e041",
+       "resource": {
+         "id": "14d1dfbb-6814-4299-97dc-cc730542e041",
+         "resourceType": "ReviewAutomatedBilling",
+         "billingCaseNumber": "A0059",
+         "startDate": "2020-04-01 08:00:00.0",
+         "endDate": "2020-05-29 08:30:00.0",
+         "patientName": "Collier",
+         "patientId": "P0059",
+         "patientDOB": "1980-03-12",
+         "payer": "CollierMoney dump insurance Inc",
+         "department": "CollierDepartment 1",
+         "billingScenario": "AOP",
+         "DRG": "I09G",
+         "note": [
+           "Parent Account created for billing"
+         ],
+         "patientGender": "male",
+         "accountVersion": "d0d6e005-84bc-4136-a8ec-3ae134f6c93b",
+         "patientVersion": "d4a2147d-4603-43bc-8170-7da4d30f7f3d",
+         "payorVersion": "13f1509e-62d6-4c3c-baef-deb4e5d62dbc",
+         "departmentVersion": "db844440-24ca-4457-9bba-d86f56563aed",
+         "coverageAccountId": "urn:uuid:6dacd3cb-e611-4e51-8d10-27b24bfb1f0e"
+       }
+     },
+     {
+       "fullUrl": "urn:uuid:d7ea63e3-7f81-4b34-9331-1bd82e3f2ca3",
+       "resource": {
+         "id": "d7ea63e3-7f81-4b34-9331-1bd82e3f2ca3",
+         "resourceType": "ReviewAutomatedBilling",
+         "billingCaseNumber": "A0067",
+         "startDate": "2020-04-05 08:00:00.0",
+         "endDate": "2020-05-29 08:30:00.0",
+         "patientName": "Conn",
+         "patientId": "P0067",
+         "patientDOB": "1980-03-12",
+         "payer": "ConnMoney dump insurance Inc",
+         "department": "ConnDepartment 1",
+         "billingScenario": "AOP",
+         "DRG": "I09G",
+         "note": [
+           "Parent Account created for billing"
+         ],
+         "patientGender": "male",
+         "accountVersion": "86b56bb8-aff5-4bde-8fb1-78ae8a5549ef",
+         "patientVersion": "04846e67-183c-4b7d-aa4e-71835fb282bf",
+         "payorVersion": "f6e38112-710e-41f4-bda4-3f42d990e3e4",
+         "departmentVersion": "db61f0c7-11fe-4334-b72e-494b5629e85f",
+         "coverageAccountId": "urn:uuid:bd17ee95-bea8-46ae-8ff1-534c50588192"
+       }
+     },
+     {
+       "fullUrl": "urn:uuid:7025b392-9e9f-4db2-b2e2-a216174609ab",
+       "resource": {
+         "id": "7025b392-9e9f-4db2-b2e2-a216174609ab",
+         "resourceType": "ReviewAutomatedBilling",
+         "billingCaseNumber": "A0097",
+         "startDate": "2020-04-07 08:00:00.0",
+         "endDate": "2020-05-29 08:30:00.0",
+         "patientName": "Corkery",
+         "patientId": "P0097",
+         "patientDOB": "1980-03-12",
+         "payer": "CorkeryMoney dump insurance Inc",
+         "department": "CorkeryDepartment 1",
+         "billingScenario": "AOP",
+         "DRG": "I09G",
+         "note": [
+           "Parent Account created for billing"
+         ],
+         "patientGender": "male",
+         "accountVersion": "06020381-c487-47a6-8dd6-a3a9c4e11d02",
+         "patientVersion": "0ec6568d-f92a-462d-8464-2537b2fa6928",
+         "payorVersion": "7ca188e1-e52b-4a0d-809b-8c74d2dd6d97",
+         "departmentVersion": "5210c89c-8f96-42cc-87fa-35b728912be9",
+         "coverageAccountId": "urn:uuid:e44c4b3e-94fc-4ade-a127-2fa1ef893e4f"
+       }
+     },
+     {
+       "fullUrl": "urn:uuid:f46d1ddf-e474-4ca1-98a3-ff3d1b893b36",
+       "resource": {
+         "id": "f46d1ddf-e474-4ca1-98a3-ff3d1b893b36",
+         "resourceType": "ReviewAutomatedBilling",
+         "billingCaseNumber": "A00124",
+         "startDate": "2020-04-03 08:00:00.0",
+         "endDate": "2020-05-29 08:30:00.0",
+         "patientName": "Corkery",
+         "patientId": "P00124",
+         "patientDOB": "1980-03-12",
+         "payer": "CorkeryMoney dump insurance Inc",
+         "department": "CorkeryDepartment 1",
+         "billingScenario": "AOP",
+         "DRG": "I09G",
+         "note": [
+           "Parent Account created for billing"
+         ],
+         "patientGender": "male",
+         "accountVersion": "4aa79e9d-9951-407d-b1b1-f2f026f96ec2",
+         "patientVersion": "5403dbe1-4eb9-40dd-b8ea-871ed63eee6f",
+         "payorVersion": "13478ba3-86e8-4101-b994-7e647d0f1436",
+         "departmentVersion": "daf2b2a8-e053-44f2-925f-b0aa7ce35eb6",
+         "coverageAccountId": "urn:uuid:2635e393-d4c5-4e37-9852-98e79430d29b"
+       }
+     },
+     {
+       "fullUrl": "urn:uuid:4be37aee-e785-4b13-ad0d-00973c9379d9",
+       "resource": {
+         "id": "4be37aee-e785-4b13-ad0d-00973c9379d9",
+         "resourceType": "ReviewAutomatedBilling",
+         "billingCaseNumber": "A00150",
+         "startDate": "2020-04-05 08:00:00.0",
+         "endDate": "2020-05-29 08:30:00.0",
+         "patientName": "Corwin",
+         "patientId": "P00150",
+         "patientDOB": "1980-03-12",
+         "payer": "CorwinMoney dump insurance Inc",
+         "department": "CorwinDepartment 1",
+         "billingScenario": "AOP",
+         "DRG": "I09G",
+         "note": [
+           "Parent Account created for billing"
+         ],
+         "patientGender": "male",
+         "accountVersion": "7c05a948-f9ec-451a-aefd-8aacdec5f7f4",
+         "patientVersion": "9b3c144d-603c-44f3-8887-9effe6a21f11",
+         "payorVersion": "b6bc3a50-90fa-411a-92e3-074fe5114cc8",
+         "departmentVersion": "6329b520-3f12-413d-b26e-82ac9733cf65",
+         "coverageAccountId": "urn:uuid:2dc709ea-9421-447d-ba21-56e3f4107f46"
+       }
+     },
+     {
+       "fullUrl": "urn:uuid:5f7c6ce4-e8c9-4a76-abda-3fd08867760d",
+       "resource": {
+         "id": "5f7c6ce4-e8c9-4a76-abda-3fd08867760d",
+         "resourceType": "ReviewAutomatedBilling",
+         "billingCaseNumber": "A0037",
+         "startDate": "2020-04-03 08:00:00.0",
+         "endDate": "2020-05-29 08:30:00.0",
+         "patientName": "Cronin",
+         "patientId": "P0037",
+         "patientDOB": "1980-03-12",
+         "payer": "CroninMoney dump insurance Inc",
+         "department": "CroninDepartment 1",
+         "billingScenario": "AOP",
+         "DRG": "I09G",
+         "note": [
+           "Parent Account created for billing"
+         ],
+         "patientGender": "male",
+         "accountVersion": "d301ee66-97ed-4cf0-8fea-2c4118844d31",
+         "patientVersion": "a17c0c6b-533b-4388-ac33-882919e6a8fe",
+         "payorVersion": "f4bd79a0-f175-4205-8c8a-9101b1a67f4c",
+         "departmentVersion": "dbac33eb-9b75-4132-9e7c-514f9ab13147",
+         "coverageAccountId": "urn:uuid:32ec6fe5-e5f4-489c-a520-756a4601570c"
+       }
+     }
+  ]
+}

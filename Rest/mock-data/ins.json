@@ -1,0 +1,316 @@
+{
+  "resourceType": "Bundle",
+  "id": "df7d1967-9b88-4b63-84a2-536a4b5319ca",
+  "total": 10,
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:0d3da749-0b30-4aa2-8c94-2b1fb6069c43",
+      "resource": {
+        "resourceType": "Organization",
+        "department": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-department",
+                "code": "ins",
+                "display": "Insurance Company"
+              }
+            ]
+          }
+        ],
+        "name": "Clementina  Provider Organization",
+        "id": "0d3da749-0b30-4aa2-8c94-2b1fb6069c43",
+        "meta": {
+          "versionId": "059745dc-7bb8-4102-948e-375d60ee7853",
+          "lastUpdated": "2021-02-21T16:21:16.877Z"
+        },
+        "payer": [
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "0d3da749-0b30-4aa2-8c94-2b1fb6069c43"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f1c76a66-c63f-4dcc-bd89-3ad3abe85ff0",
+      "resource": {
+        "resourceType": "Organization",
+        "department": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-department",
+                "code": "ins",
+                "display": "Insurance Company"
+              }
+            ]
+          }
+        ],
+        "name": "Dedric  Provider Organization",
+        "id": "f1c76a66-c63f-4dcc-bd89-3ad3abe85ff0",
+        "meta": {
+          "versionId": "0754e429-0a2c-468b-a04e-53b2c3bc54cd",
+          "lastUpdated": "2021-02-21T16:20:54.524Z"
+        },
+        "payer": [
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "f1c76a66-c63f-4dcc-bd89-3ad3abe85ff0"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:28ee1bb3-f699-4107-b778-b96d07f25bdd",
+      "resource": {
+        "resourceType": "Organization",
+        "department": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-department",
+                "code": "ins",
+                "display": "Insurance Company"
+              }
+            ]
+          }
+        ],
+        "name": "Hulda  Provider Organization",
+        "id": "28ee1bb3-f699-4107-b778-b96d07f25bdd",
+        "meta": {
+          "versionId": "0927463c-5402-4d8b-a07b-8160d9d849a2",
+          "lastUpdated": "2021-02-21T16:21:24.220Z"
+        },
+        "payer": [
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "28ee1bb3-f699-4107-b778-b96d07f25bdd"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d83a6e2a-19a0-4421-9afd-2e45c124a05a",
+      "resource": {
+        "resourceType": "Organization",
+        "department": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-department",
+                "code": "ins",
+                "display": "Insurance Company"
+              }
+            ]
+          }
+        ],
+        "name": "Efren  Provider Organization",
+        "id": "d83a6e2a-19a0-4421-9afd-2e45c124a05a",
+        "meta": {
+          "versionId": "1a1e4555-9510-4ff4-b6cc-7506aa263af1",
+          "lastUpdated": "2021-02-21T16:20:17.131Z"
+        },
+        "payer": [
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "d83a6e2a-19a0-4421-9afd-2e45c124a05a"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4bf8bf50-b9c8-41be-bc58-68456acbcc64",
+      "resource": {
+        "resourceType": "Organization",
+        "department": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-department",
+                "code": "ins",
+                "display": "Insurance Company"
+              }
+            ]
+          }
+        ],
+        "name": "GorczanyMoney dump insurance Inc",
+        "id": "4bf8bf50-b9c8-41be-bc58-68456acbcc64",
+        "meta": {
+          "versionId": "1c0120b3-1f70-47e9-96c3-d5366b3ff9b4",
+          "lastUpdated": "2021-02-21T16:20:38.922Z"
+        },
+        "payer": [
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "4bf8bf50-b9c8-41be-bc58-68456acbcc64"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1266dd9d-8ed9-435a-bc93-0a389940c146",
+      "resource": {
+        "resourceType": "Organization",
+        "department": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-department",
+                "code": "ins",
+                "display": "Insurance Company"
+              }
+            ]
+          }
+        ],
+        "name": "EffertzMoney dump insurance Inc",
+        "id": "1266dd9d-8ed9-435a-bc93-0a389940c146",
+        "meta": {
+          "versionId": "27979e87-03ac-408b-882b-62f702001ade",
+          "lastUpdated": "2021-02-21T16:20:31.566Z"
+        },
+        "payer": [
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "1266dd9d-8ed9-435a-bc93-0a389940c146"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c0186786-8156-4cfd-9664-a1cc1193b287",
+      "resource": {
+        "resourceType": "Organization",
+        "department": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-department",
+                "code": "ins",
+                "display": "Insurance Company"
+              }
+            ]
+          }
+        ],
+        "name": "Lorna  Provider Organization",
+        "id": "c0186786-8156-4cfd-9664-a1cc1193b287",
+        "meta": {
+          "versionId": "2900a3d1-13b0-4245-8fa7-137b02d1be0c",
+          "lastUpdated": "2021-02-21T16:21:54.490Z"
+        },
+        "payer": [
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "c0186786-8156-4cfd-9664-a1cc1193b287"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f3d88077-aca0-41eb-82a6-bb85e8f5acaf",
+      "resource": {
+        "resourceType": "Organization",
+        "department": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-department",
+                "code": "ins",
+                "display": "Insurance Company"
+              }
+            ]
+          }
+        ],
+        "name": "LakinDepartment 1",
+        "partOf": {
+          "reference": "Organization/78051927-0a4a-4d96-a156-76fb09b22480"
+        },
+        "id": "f3d88077-aca0-41eb-82a6-bb85e8f5acaf",
+        "meta": {
+          "versionId": "2adc3768-d77d-4926-bbdc-0bac80b15c8c",
+          "lastUpdated": "2021-02-21T16:20:47.230Z"
+        },
+        "payer": [
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "f3d88077-aca0-41eb-82a6-bb85e8f5acaf"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fed0c72c-5dd8-451f-9649-23002a4e4797",
+      "resource": {
+        "resourceType": "Organization",
+        "department": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-department",
+                "code": "ins",
+                "display": "Insurance Company"
+              }
+            ]
+          }
+        ],
+        "name": "SchoenDepartment 1",
+        "partOf": {
+          "reference": "Organization/fe681b9b-5449-42f6-84f1-b3fea118907c"
+        },
+        "id": "fed0c72c-5dd8-451f-9649-23002a4e4797",
+        "meta": {
+          "versionId": "2c4fa423-5c9a-4de5-bce2-9e30fc024009",
+          "lastUpdated": "2021-02-21T16:21:12.504Z"
+        },
+        "payer": [
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "fed0c72c-5dd8-451f-9649-23002a4e4797"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2cefedc0-77c8-41ec-af65-d952c38197cc",
+      "resource": {
+        "resourceType": "Organization",
+        "department": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-department",
+                "code": "ins",
+                "display": "Insurance Company"
+              }
+            ]
+          }
+        ],
+        "name": "JohnstonDepartment 1",
+        "partOf": {
+          "reference": "Organization/c0186786-8156-4cfd-9664-a1cc1193b287"
+        },
+        "id": "2cefedc0-77c8-41ec-af65-d952c38197cc",
+        "meta": {
+          "versionId": "2cac8fcb-b535-407d-8622-f6d8040459f8",
+          "lastUpdated": "2021-02-21T16:21:57.511Z"
+        },
+        "payer": [
+          {
+            "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+            "use": "official",
+            "value": "2cefedc0-77c8-41ec-af65-d952c38197cc"
+          }
+        ]
+      }
+    }
+  ]
+}

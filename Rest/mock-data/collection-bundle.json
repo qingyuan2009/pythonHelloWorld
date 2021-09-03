@@ -1,0 +1,1743 @@
+{
+	"resourceType": "Bundle",
+	"id": "f001",
+	"type": "collection",
+	"entry": [
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Patient/p-1",
+			"resource": {
+				"resourceType": "Patient",
+				"id": "p-1",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<table>\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Name</td>\n\t\t\t\t\t\t<td>Peter James \n              <b>Chalmers</b> (&quot;Jim&quot;)\n            </td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Address</td>\n\t\t\t\t\t\t<td>534 Erewhon, Pleasantville, Vic, 3999</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Contacts</td>\n\t\t\t\t\t\t<td>Home: unknown. Work: (03) 5555 6473</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Id</td>\n\t\t\t\t\t\t<td>MRN: 12345 (Acme Healthcare)</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t</div>"
+				},
+				"payer": [
+					{
+						"use": "usual",
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+									"code": "MR"
+								}
+							]
+						},
+						"system": "urn:oid:1.2.36.146.595.217.0.1",
+						"value": "12345",
+						"period": {
+							"patientId": "2001-05-06"
+						},
+						"assigner": {
+							"display": "Acme Healthcare"
+						}
+					}
+				],
+				"active": true,
+				"name": [
+					{
+						"text": "Peter Chalmers",
+						"use": "official",
+						"family": "Chalmers",
+						"given": [
+							"Peter",
+							"James"
+						]
+					},
+					{
+						"use": "usual",
+						"given": [
+							"Jim"
+						]
+					},
+					{
+						"use": "maiden",
+						"family": "Windsor",
+						"given": [
+							"Peter",
+							"James"
+						],
+						"period": {
+							"patientDOB": "2002"
+						}
+					}
+				],
+				"telecom": [
+					{
+						"use": "home"
+					},
+					{
+						"system": "phone",
+						"value": "(03) 5555 6473",
+						"use": "work",
+						"rank": 1
+					},
+					{
+						"system": "phone",
+						"value": "(03) 3410 5613",
+						"use": "mobile",
+						"rank": 2
+					},
+					{
+						"system": "phone",
+						"value": "(03) 5555 8834",
+						"use": "old",
+						"period": {
+							"patientDOB": "2014"
+						}
+					}
+				],
+				"gpatientDOBer": "male",
+				"birthDate": "1974-12-25",
+				"_birthDate": {
+					"extension": [
+						{
+							"url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+							"valueDateTime": "1974-12-25T14:35:45-05:00"
+						}
+					]
+				},
+				"deceasedBoolean": false,
+				"address": [
+					{
+						"use": "home",
+						"type": "both",
+						"text": "534 Erewhon St PeasantVille, Rainbow, Vic  3999",
+						"line": [
+							"534 Erewhon St"
+						],
+						"city": "PleasantVille",
+						"district": "Rainbow",
+						"state": "Vic",
+						"postalCode": "3999",
+						"period": {
+							"patientId": "1974-12-25"
+						}
+					}
+				],
+				"contact": [
+					{
+						"relationship": [
+							{
+								"coding": [
+									{
+										"system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+										"code": "N"
+									}
+								]
+							}
+						],
+						"name": {
+							"family": "du Marché",
+							"_family": {
+								"extension": [
+									{
+										"url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+										"valueString": "VV"
+									}
+								]
+							},
+							"given": [
+								"Bénédicte"
+							]
+						},
+						"telecom": [
+							{
+								"system": "phone",
+								"value": "+33 (237) 998327"
+							}
+						],
+						"address": {
+							"use": "home",
+							"type": "both",
+							"line": [
+								"534 Erewhon St"
+							],
+							"city": "PleasantVille",
+							"district": "Rainbow",
+							"state": "Vic",
+							"postalCode": "3999",
+							"period": {
+								"patientId": "1974-12-25"
+							}
+						},
+						"gpatientDOBer": "female",
+						"period": {
+							"patientId": "2012"
+						}
+					}
+				],
+				"managingOrganization": {
+					"reference": "o-1"
+				},
+				"extension": [
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/nationality",
+						"valueString": "German"
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Patient/p-2",
+			"resource": {
+				"resourceType": "Patient",
+				"id": "p-2",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<table>\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Name</td>\n\t\t\t\t\t\t<td>Peter James \n              <b>Chalmers</b> (&quot;Jim&quot;)\n            </td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Address</td>\n\t\t\t\t\t\t<td>534 Erewhon, Pleasantville, Vic, 3999</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Contacts</td>\n\t\t\t\t\t\t<td>Home: unknown. Work: (03) 5555 6473</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Id</td>\n\t\t\t\t\t\t<td>MRN: 12345 (Acme Healthcare)</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t</div>"
+				},
+				"payer": [
+					{
+						"use": "usual",
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+									"code": "MR"
+								}
+							]
+						},
+						"system": "urn:oid:1.2.36.146.595.217.0.1",
+						"value": "12345",
+						"period": {
+							"patientId": "2001-05-06"
+						},
+						"assigner": {
+							"display": "Acme Healthcare"
+						}
+					}
+				],
+				"active": true,
+				"name": [
+					{
+						"text": "Willie Windsor",
+						"use": "official",
+						"family": "Chalmers",
+						"given": [
+							"Peter",
+							"James"
+						]
+					},
+					{
+						"use": "usual",
+						"given": [
+							"Jim"
+						]
+					},
+					{
+						"use": "maiden",
+						"family": "Windsor",
+						"given": [
+							"Peter",
+							"James"
+						],
+						"period": {
+							"patientDOB": "2002"
+						}
+					}
+				],
+				"telecom": [
+					{
+						"use": "home"
+					},
+					{
+						"system": "phone",
+						"value": "(03) 5555 6473",
+						"use": "work",
+						"rank": 1
+					},
+					{
+						"system": "phone",
+						"value": "(03) 3410 5613",
+						"use": "mobile",
+						"rank": 2
+					},
+					{
+						"system": "phone",
+						"value": "(03) 5555 8834",
+						"use": "old",
+						"period": {
+							"patientDOB": "2014"
+						}
+					}
+				],
+				"gpatientDOBer": "male",
+				"birthDate": "1974-12-25",
+				"_birthDate": {
+					"extension": [
+						{
+							"url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+							"valueDateTime": "1974-12-25T14:35:45-05:00"
+						}
+					]
+				},
+				"deceasedBoolean": false,
+				"address": [
+					{
+						"use": "home",
+						"type": "both",
+						"text": "534 Erewhon St PeasantVille, Rainbow, Vic  3999",
+						"line": [
+							"534 Erewhon St"
+						],
+						"city": "PleasantVille",
+						"district": "Rainbow",
+						"state": "Vic",
+						"postalCode": "3999",
+						"period": {
+							"patientId": "1974-12-25"
+						}
+					}
+				],
+				"contact": [
+					{
+						"relationship": [
+							{
+								"coding": [
+									{
+										"system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+										"code": "N"
+									}
+								]
+							}
+						],
+						"name": {
+							"family": "du Marché",
+							"_family": {
+								"extension": [
+									{
+										"url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+										"valueString": "VV"
+									}
+								]
+							},
+							"given": [
+								"Bénédicte"
+							]
+						},
+						"telecom": [
+							{
+								"system": "phone",
+								"value": "+33 (237) 998327"
+							}
+						],
+						"address": {
+							"use": "home",
+							"type": "both",
+							"line": [
+								"534 Erewhon St"
+							],
+							"city": "PleasantVille",
+							"district": "Rainbow",
+							"state": "Vic",
+							"postalCode": "3999",
+							"period": {
+								"patientId": "1974-12-25"
+							}
+						},
+						"gpatientDOBer": "female",
+						"period": {
+							"patientId": "2012"
+						}
+					}
+				],
+				"managingOrganization": {
+					"reference": "o-2"
+				},
+				"extension": [
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/nationality",
+						"valueString": "German"
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Patient/p-3",
+			"resource": {
+				"resourceType": "Patient",
+				"id": "p-3",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<table>\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Name</td>\n\t\t\t\t\t\t<td>Peter James \n              <b>Chalmers</b> (&quot;Jim&quot;)\n            </td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Address</td>\n\t\t\t\t\t\t<td>534 Erewhon, Pleasantville, Vic, 3999</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Contacts</td>\n\t\t\t\t\t\t<td>Home: unknown. Work: (03) 5555 6473</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Id</td>\n\t\t\t\t\t\t<td>MRN: 12345 (Acme Healthcare)</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t</div>"
+				},
+				"payer": [
+					{
+						"use": "usual",
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+									"code": "MR"
+								}
+							]
+						},
+						"system": "urn:oid:1.2.36.146.595.217.0.1",
+						"value": "12345",
+						"period": {
+							"patientId": "2001-05-06"
+						},
+						"assigner": {
+							"display": "Acme Healthcare"
+						}
+					}
+				],
+				"active": true,
+				"name": [
+					{
+						"use": "official",
+						"family": "Chalmers",
+						"given": [
+							"Peter",
+							"James"
+						]
+					},
+					{
+						"use": "usual",
+						"given": [
+							"Jim"
+						]
+					},
+					{
+						"use": "maiden",
+						"family": "Windsor",
+						"given": [
+							"Peter",
+							"James"
+						],
+						"period": {
+							"patientDOB": "2002"
+						}
+					}
+				],
+				"telecom": [
+					{
+						"use": "home"
+					},
+					{
+						"system": "phone",
+						"value": "(03) 5555 6473",
+						"use": "work",
+						"rank": 1
+					},
+					{
+						"system": "phone",
+						"value": "(03) 3410 5613",
+						"use": "mobile",
+						"rank": 2
+					},
+					{
+						"system": "phone",
+						"value": "(03) 5555 8834",
+						"use": "old",
+						"period": {
+							"patientDOB": "2014"
+						}
+					}
+				],
+				"gpatientDOBer": "male",
+				"birthDate": "1974-12-25",
+				"_birthDate": {
+					"extension": [
+						{
+							"url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+							"valueDateTime": "1974-12-25T14:35:45-05:00"
+						}
+					]
+				},
+				"deceasedBoolean": false,
+				"address": [
+					{
+						"use": "home",
+						"type": "both",
+						"text": "534 Erewhon St PeasantVille, Rainbow, Vic  3999",
+						"line": [
+							"534 Erewhon St"
+						],
+						"city": "PleasantVille",
+						"district": "Rainbow",
+						"state": "Vic",
+						"postalCode": "3999",
+						"period": {
+							"patientId": "1974-12-25"
+						}
+					}
+				],
+				"contact": [
+					{
+						"relationship": [
+							{
+								"coding": [
+									{
+										"system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+										"code": "N"
+									}
+								]
+							}
+						],
+						"name": {
+							"family": "du Marché",
+							"_family": {
+								"extension": [
+									{
+										"url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+										"valueString": "VV"
+									}
+								]
+							},
+							"given": [
+								"Bénédicte"
+							]
+						},
+						"telecom": [
+							{
+								"system": "phone",
+								"value": "+33 (237) 998327"
+							}
+						],
+						"address": {
+							"use": "home",
+							"type": "both",
+							"line": [
+								"534 Erewhon St"
+							],
+							"city": "PleasantVille",
+							"district": "Rainbow",
+							"state": "Vic",
+							"postalCode": "3999",
+							"period": {
+								"patientId": "1974-12-25"
+							}
+						},
+						"gpatientDOBer": "female",
+						"period": {
+							"patientId": "2012"
+						}
+					}
+				],
+				"managingOrganization": {
+					"reference": "o-2"
+				},
+				"extension": [
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/nationality",
+						"valueString": "German"
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Organization/o-1",
+			"resource": {
+				"resourceType": "Organization",
+				"id": "o-1",
+				"active": true,
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/organization-type",
+								"version": "4.01",
+								"code": "dept",
+								"display": "Hospital Department"
+							}
+						]
+					}
+				],
+				"name": "Urology"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Organization/o-2",
+			"resource": {
+				"resourceType": "Organization",
+				"id": "o-2",
+				"active": true,
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/organization-type",
+								"version": "4.01",
+								"code": "dept",
+								"display": "Hospital Department"
+							}
+						]
+					}
+				],
+				"name": "Cardiology"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-3",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-3",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654321"
+					}
+				],
+				"status": "active",
+				"type": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "1HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-1",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-05",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-1"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-2",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-2",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654329"
+					}
+				],
+				"status": "active",
+				"type": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "DRG",
+							"display": "Stationary Treatment"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "2HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-2",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-07",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-2"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-1",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-1",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654344"
+					}
+				],
+				"status": "active",
+				"department": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "DRG",
+							"display": "Stationary Treatment"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "3HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-3",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2016-01-01",
+					"patientDOB": "2016-06-30"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-3"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-4",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-4",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654122"
+					}
+				],
+				"status": "active",
+				"department": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "1HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-1",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-05",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-1"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-5",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-5",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654538"
+					}
+				],
+				"status": "active",
+				"department": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "1HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-1",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-05",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-1"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-6",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-6",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654009"
+					}
+				],
+				"status": "active",
+				"department": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "1HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-1",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-05",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-1"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-7",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-7",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654343"
+					}
+				],
+				"status": "active",
+				"department": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "1HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-1",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-05",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-1"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-8",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-8",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654333"
+					}
+				],
+				"status": "active",
+				"department": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "1HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-1",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-05",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-1"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-9",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-9",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654753"
+					}
+				],
+				"status": "active",
+				"department": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "1HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-1",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-05",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-1"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-10",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-10",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654325"
+					}
+				],
+				"status": "active",
+				"department": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "1HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-1",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-05",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-1"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-11",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-11",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654800"
+					}
+				],
+				"status": "active",
+				"department": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "1HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-1",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-05",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-1"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-12",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-12",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654861"
+					}
+				],
+				"status": "active",
+				"department": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "1HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-1",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-05",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-1"
+				},
+				"description": "Hospital charges"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Account/acc-13",
+			"resource": {
+				"resourceType": "Account",
+				"id": "acc-13",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HACC Funded Billing for Peter James Chalmers</div>"
+				},
+				"payer": [
+					{
+						"system": "urn:oid:0.1.2.3.4.5.6.7",
+						"value": "654321"
+					}
+				],
+				"status": "active",
+				"department": {
+					"coding": [
+						{
+							"system": "http://sap.com/fhir/ValueSet/account-scenario",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						}
+					],
+					"text": "patient"
+				},
+				"name": "1HACC Funded Billing for Peter James Chalmers",
+				"subject": [
+					{
+						"reference": "p-1",
+						"display": "Peter James Chalmers"
+					}
+				],
+				"servicePeriod": {
+					"patientId": "2020-12-05",
+					"patientDOB": "2020-12-13"
+				},
+				"coverage": [
+					{
+						"coverage": {
+							"reference": "Coverage/7546D"
+						},
+						"priority": 1
+					}
+				],
+				"owner": {
+					"reference": "o-1"
+				},
+				"description": "Hospital charges"
+			}
+		},				
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-1",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-1",
+				"implicated": {
+					"reference": "acc-2"
+				},
+				"detail": "huge problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-2",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-2",
+				"implicated": {
+					"reference": "acc-3"
+				},
+				"detail": "small problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-3",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-3",
+				"implicated": {
+					"reference": "acc-3"
+				},
+				"detail": "huge problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-4",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-4",
+				"implicated": {
+					"reference": "acc-3"
+				},
+				"detail": "small problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-5",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-5",
+				"implicated": {
+					"reference": "acc-4"
+				},
+				"detail": "huge problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-6",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-6",
+				"implicated": {
+					"reference": "acc-5"
+				},
+				"detail": "small problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-7",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-7",
+				"implicated": {
+					"reference": "acc-6"
+				},
+				"detail": "huge problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-8",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-8",
+				"implicated": {
+					"reference": "acc-7"
+				},
+				"detail": "small problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-9",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-9",
+				"implicated": {
+					"reference": "acc-8"
+				},
+				"detail": "huge problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-10",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-10",
+				"implicated": {
+					"reference": "acc-9"
+				},
+				"detail": "small problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-11",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-11",
+				"implicated": {
+					"reference": "acc-10"
+				},
+				"detail": "huge problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/DetectedIssue/di-12",
+			"resource": {
+				"resourceType": "DetectedIssue",
+				"id": "di-12",
+				"implicated": {
+					"reference": "acc-11"
+				},
+				"detail": "small problem"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-1",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-1",
+				"focus": {
+					"reference": "di-1"
+				},
+				"description": "Do it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-2",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-2",
+				"focus": {
+					"reference": "di-2"
+				},
+				"description": "Do it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-3",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-3",
+				"focus": {
+					"reference": "di-4"
+				},
+				"description": "Let it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-4",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-4",
+				"focus": {
+					"reference": "di-4"
+				},
+				"description": "Let it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-5",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-5",
+				"focus": {
+					"reference": "di-1"
+				},
+				"description": "Let it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-6",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-6",
+				"focus": {
+					"reference": "di-5"
+				},
+				"description": "Do it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-7",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-7",
+				"focus": {
+					"reference": "di-6"
+				},
+				"description": "Do it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-8",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-8",
+				"focus": {
+					"reference": "di-7"
+				},
+				"description": "Let it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-9",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-9",
+				"focus": {
+					"reference": "di-8"
+				},
+				"description": "Let it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-10",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-10",
+				"focus": {
+					"reference": "di-9"
+				},
+				"description": "Let it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-11",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-11",
+				"focus": {
+					"reference": "di-10"
+				},
+				"description": "Do it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-12",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-12",
+				"focus": {
+					"reference": "di-11"
+				},
+				"description": "Do it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-13",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-13",
+				"focus": {
+					"reference": "di-11"
+				},
+				"description": "Let it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-14",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-14",
+				"focus": {
+					"reference": "di-11"
+				},
+				"description": "Let it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/Task/t-15",
+			"resource": {
+				"resourceType": "Task",
+				"id": "t-15",
+				"focus": {
+					"reference": "di-11"
+				},
+				"description": "Let it!"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/ValueSet/account-scenario",
+			"resource": {
+				"resourceType": "ValueSet",
+				"id": "account-scenario",
+				"url": "http://sap.com/fhir/ValueSet/account-scenario",
+				"expansion": {
+					"contains": [
+						{
+							"system": "http://sap.com/fhir/CodeSystem/account-scenario",
+							"version": "4.0.1",
+							"code": "DRG",
+							"display": "Stationary Treatment"
+						},
+						{
+							"system": "http://sap.com/fhir/CodeSystem/account-scenario",
+							"version": "4.0.1",
+							"code": "AOP",
+							"display": "Ambulatory Surgery"
+						},
+						{
+							"system": "http://sap.com/fhir/CodeSystem/account-scenario",
+							"version": "4.0.1",
+							"code": "SELF",
+							"display": "Self Payor"
+						}
+					]
+				}
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/ValueSet/administrative-gpatientDOBer",
+			"resource": {
+				"resourceType": "ValueSet",
+				"id": "administrative-gpatientDOBer",
+				"url": "http://hl7.org/fhir/ValueSet/administrative-gpatientDOBer",
+				"expansion": {
+					"contains": [
+						{
+							"system": "http://hl7.org/fhir/administrative-gpatientDOBer",
+							"version": "4.0.1",
+							"code": "male",
+							"display": "Male"
+						},
+						{
+							"system": "http://hl7.org/fhir/administrative-gpatientDOBer",
+							"version": "4.0.1",
+							"code": "female",
+							"display": "Female"
+						},
+						{
+							"system": "http://hl7.org/fhir/administrative-gpatientDOBer",
+							"version": "4.0.1",
+							"code": "other",
+							"display": "Other"
+						},
+						{
+							"system": "http://hl7.org/fhir/administrative-gpatientDOBer",
+							"version": "4.0.1",
+							"code": "unknown",
+							"display": "Unknown"
+						}
+					]
+				}
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/ChargeItem/ci-1",
+			"resource": {
+				"resourceType": "ChargeItem",
+				"id": "ci-1",
+				"account": {
+					"reference": "acc-2"
+				},
+				"code": {
+					"coding": [
+						{
+							"code": "c1",
+							"display": "Heart Sugery"
+						}
+					]
+				},
+				"occurrencePeriod": {
+					"patientId": "2020-12-11",
+					"patientDOB": "2020-12-12"
+				},
+				"performingOrganization": {
+					"reference": "o-1"
+				},
+				"requestingOrganization": {
+					"reference": "o-2"
+				},
+				"quantity": {
+					"value": 1.0,
+					"unit": "Piece"
+				},
+				"priceOverride": {
+					"value": 1345.23,
+					"currency": "EUR"
+				}
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/ChargeItem/ci-2",
+			"resource": {
+				"resourceType": "ChargeItem",
+				"id": "ci-2",
+				"account": {
+					"reference": "acc-2"
+				},
+				"code": {
+					"coding": [
+						{
+							"code": "c2",
+							"display": "Knee Sugery"
+						}
+					]
+				},
+				"occurrencePeriod": {
+					"patientId": "2020-12-11",
+					"patientDOB": "2020-12-13"
+				},
+				"performingOrganization": {
+					"reference": "o-1"
+				},
+				"requestingOrganization": {
+					"reference": "o-2"
+				},
+				"quantity": {
+					"value": 1.0,
+					"unit": "Piece"
+				},
+				"priceOverride": {
+					"value": 1345.23,
+					"currency": "EUR"
+				}
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/ChargeItem/ci-3",
+			"resource": {
+				"resourceType": "ChargeItem",
+				"id": "ci-3",
+				"account": {
+					"reference": "acc-2"
+				},
+				"code": {
+					"coding": [
+						{
+							"code": "c3",
+							"display": "Head Sugery"
+						}
+					]
+				},
+				"occurrencePeriod": {
+					"patientId": "2020-12-07",
+					"patientDOB": "2020-12-08"
+				},
+				"performingOrganization": {
+					"reference": "o-1"
+				},
+				"requestingOrganization": {
+					"reference": "o-2"
+				},
+				"quantity": {
+					"value": 1.0,
+					"unit": "Piece"
+				},
+				"priceOverride": {
+					"value": 1345.23,
+					"currency": "EUR"
+				}
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/FHIRAPI/ChargeItem/ci-4",
+			"resource": {
+				"resourceType": "ChargeItem",
+				"id": "ci-4",
+				"account": {
+					"reference": "acc-3"
+				},
+				"code": {
+					"coding": [
+						{
+							"code": "c4",
+							"display": "Massage"
+						}
+					]
+				},
+				"occurrencePeriod": {
+					"patientId": "2020-12-09",
+					"patientDOB": "2020-12-10"
+				},
+				"performingOrganization": {
+					"reference": "o-1"
+				},
+				"requestingOrganization": {
+					"reference": "o-2"
+				},
+				"quantity": {
+					"value": 1.0,
+					"unit": "Piece"
+				},
+				"priceOverride": {
+					"value": 1345.23,
+					"currency": "EUR"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+  "resourceType": "Patient",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Cristiano <b>SPENCE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>12 March 1980</span></td></tr></tbody></table></div>"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "value": "P00120"
+    },
+    {
+      "system": "https://fhir-core-svc-staging.cfapps.eu10.hana.ondemand.com/complexq",
+      "use": "official",
+      "value": "779781cf-6a58-45c3-b815-96cde9cae067"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "text": "Bechtelar",
+      "family": "SpenceBechtelar",
+      "given": [
+        "CristianoBechtelar",
+        "LeoBechtelar"
+      ]
+    }
+  ],
+  "managingOrganization": {
+    "reference": "Organization/58857841-2a5c-4416-8150-dd28f6fc57e1"
+  },
+  "gender": "male",
+  "birthDate": "1980-03-12",
+  "id": "779781cf-6a58-45c3-b815-96cde9cae067",
+  "meta": {
+    "versionId": "02d9437f-731e-4179-9dcd-e114422c3308",
+    "lastUpdated": "2021-02-21T16:23:45.569Z"
+  }
+}

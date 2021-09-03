@@ -1,0 +1,47 @@
+{
+				"resourceType": "CapabilityStatement",
+				"id": "Metadata",
+				"rest": [
+					{
+						"mode": "server",
+						"resource": [
+							{
+								"type": "ReviewAutomatedBilling",
+								"profile": "http://sap.com/healthcare/PatActg/fhir/StructureDefinition/ReviewAutomatedBilling",
+								"searchParam": [
+									{
+										"name": "patientLastName",
+										"definition": "http://hl7.org/fhir/SearchParameter/patientLastName",
+										"type": "string"
+									},
+                  {
+                    "name": "patientFirstName",
+                    "definition": "http://hl7.org/fhir/SearchParameter/patientFirstName",
+                    "type": "string"
+                  },
+									{
+										"name": "insProvName",
+										"definition": "http://hl7.org/fhir/SearchParameter/insProvName",
+										"type": "string"
+									},
+									{
+										"name": "endDate",
+										"definition": "http://hl7.org/fhir/SearchParameter/endDate",
+										"type": "date"
+									},
+									{
+										"name": "DRG",
+										"definition": "http://hl7.org/fhir/SearchParameter/DRG",
+										"type": "string"
+									},
+                  {
+                    "name": "billingScenario",
+                    "definition": "http://hl7.org/fhir/SearchParameter/billingScenario",
+                    "type": "string"
+                  }
+								]
+							}
+						]
+					}
+				]
+			}

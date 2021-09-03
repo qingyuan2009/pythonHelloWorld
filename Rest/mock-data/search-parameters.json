@@ -1,0 +1,383 @@
+{
+  "resourceType": "Bundle",
+  "id": "searchParams",
+  "meta": {
+    "lastUpdated": "2019-11-01T09:29:23.356+11:00"
+  },
+  "total": 4,
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "http://hl7.org/fhir/SearchParameter/patientLastName",
+      "resource": {
+        "resourceType": "SearchParameter",
+        "id": "patientLastName",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          }
+        ],
+        "url": "http://hl7.org/fhir/SearchParameter/patientLastName",
+        "version": "4.0.0",
+        "name": "patientLastName",
+        "status": "draft",
+        "experimental": false,
+        "date": "2018-12-27T22:37:54+11:00",
+        "publisher": "SAP Health",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://hl7.org/fhir"
+              }
+            ]
+          },
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://www.hl7.org/Special/committees/fiwg/index.cfm"
+              }
+            ]
+          }
+        ],
+        "description": "A custom search profile that describes a specific defined query operation",
+        "code": "patientLastName",
+        "expression" : "ReviewAutomatedBilling.patientLastName",
+        "base": [
+          "ReviewAutomatedBilling"
+        ],
+        "type": "string",
+        "xpathUsage": "normal",
+        "multipleOr": true,
+        "multipleAnd": true,
+        "modifier": [],
+        "meta": {
+          "versionId": "14586411-e390-40ad-91e2-82fa2ee7de9c",
+          "lastUpdated": "2021-01-27T09:27:02Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://hl7.org/fhir/SearchParameter/patientFirstName",
+      "resource": {
+        "resourceType": "SearchParameter",
+        "id": "patientFirstName",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          }
+        ],
+        "url": "http://hl7.org/fhir/SearchParameter/patientFirstName",
+        "version": "4.0.0",
+        "name": "patientFirstName",
+        "status": "draft",
+        "experimental": false,
+        "date": "2018-12-27T22:37:54+11:00",
+        "publisher": "SAP Health",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://hl7.org/fhir"
+              }
+            ]
+          },
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://www.hl7.org/Special/committees/fiwg/index.cfm"
+              }
+            ]
+          }
+        ],
+        "description": "A custom search profile that describes a specific defined query operation",
+        "code": "patientLastName",
+        "expression" : "ReviewAutomatedBilling.patientFirstName",
+        "base": [
+          "ReviewAutomatedBilling"
+        ],
+        "type": "string",
+        "xpathUsage": "normal",
+        "multipleOr": true,
+        "multipleAnd": true,
+        "modifier": [],
+        "meta": {
+          "versionId": "14586411-e390-40ad-91e2-82fa2ee7de9c",
+          "lastUpdated": "2021-01-27T09:27:02Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://hl7.org/fhir/SearchParameter/insProvName",
+      "resource": {
+        "resourceType": "SearchParameter",
+        "id": "insProvName",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          }
+        ],
+        "url": "http://hl7.org/fhir/SearchParameter/insProvName",
+        "version": "4.0.0",
+        "name": "insProvName",
+        "status": "draft",
+        "experimental": false,
+        "date": "2018-12-27T22:37:54+11:00",
+        "publisher": "SAP Health",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://hl7.org/fhir"
+              }
+            ]
+          },
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://www.hl7.org/Special/committees/fiwg/index.cfm"
+              }
+            ]
+          }
+        ],
+        "description": "A custom search profile that describes a specific defined query operation",
+        "code": "insProvName",
+        "expression" : "ReviewAutomatedBilling.payer",
+        "base": [
+          "ReviewAutomatedBilling"
+        ],
+        "type": "string",
+        "xpathUsage": "normal",
+        "multipleOr": true,
+        "multipleAnd": true,
+        "modifier": [],
+        "meta": {
+          "versionId": "14586411-e390-40ad-91e2-82fa2ee7de9c",
+          "lastUpdated": "2021-01-27T09:27:02Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://hl7.org/fhir/SearchParameter/DRG",
+      "resource": {
+        "resourceType": "SearchParameter",
+        "id": "DRG",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          }
+        ],
+        "url": "http://hl7.org/fhir/SearchParameter/DRG",
+        "version": "4.0.0",
+        "name": "DRG",
+        "status": "draft",
+        "experimental": false,
+        "date": "2018-12-27T22:37:54+11:00",
+        "publisher": "SAP Health",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://hl7.org/fhir"
+              }
+            ]
+          },
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://www.hl7.org/Special/committees/fiwg/index.cfm"
+              }
+            ]
+          }
+        ],
+        "description": "A custom search profile that describes a specific defined query operation",
+        "code": "DRG",
+        "expression" : "ReviewAutomatedBilling.DRG",
+        "base": [
+          "ReviewAutomatedBilling"
+        ],
+        "type": "code",
+        "xpathUsage": "normal",
+        "multipleOr": true,
+        "multipleAnd": true,
+        "modifier": [],
+        "meta": {
+          "versionId": "14586411-e390-40ad-91e2-82fa2ee7de9c",
+          "lastUpdated": "2021-01-27T09:27:02Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://hl7.org/fhir/SearchParameter/billingScenario",
+      "resource": {
+        "resourceType": "SearchParameter",
+        "id": "billingScenario",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          }
+        ],
+        "url": "http://hl7.org/fhir/SearchParameter/billingScenario",
+        "version": "4.0.0",
+        "name": "billingScenario",
+        "status": "draft",
+        "experimental": false,
+        "date": "2018-12-27T22:37:54+11:00",
+        "publisher": "SAP Health",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://hl7.org/fhir"
+              }
+            ]
+          },
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://www.hl7.org/Special/committees/fiwg/index.cfm"
+              }
+            ]
+          }
+        ],
+        "description": "A custom search profile that describes a specific defined query operation",
+        "code": "billingScenario",
+        "expression" : "ReviewAutomatedBilling.billingScenario",
+        "base": [
+          "ReviewAutomatedBilling"
+        ],
+        "type": "code",
+        "xpathUsage": "normal",
+        "multipleOr": true,
+        "multipleAnd": true,
+        "modifier": [],
+        "meta": {
+          "versionId": "14586411-e390-40ad-91e2-82fa2ee7de9c",
+          "lastUpdated": "2021-01-27T09:27:02Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://hl7.org/fhir/SearchParameter/startDate",
+      "resource": {
+        "resourceType": "SearchParameter",
+        "id": "startDate",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          }
+        ],
+        "url": "http://hl7.org/fhir/SearchParameter/startDate",
+        "version": "4.0.0",
+        "name": "startDate",
+        "status": "draft",
+        "experimental": false,
+        "date": "2018-12-27T22:37:54+11:00",
+        "publisher": "SAP Health",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://hl7.org/fhir"
+              }
+            ]
+          },
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://www.hl7.org/Special/committees/fiwg/index.cfm"
+              }
+            ]
+          }
+        ],
+        "description": "A custom search profile that describes a specific defined query operation",
+        "code": "startDate",
+        "expression" : "ReviewAutomatedBilling.startDate",
+        "base": [
+          "ReviewAutomatedBilling"
+        ],
+        "type": "date",
+        "xpathUsage": "normal",
+        "multipleOr": true,
+        "multipleAnd": true,
+        "modifier": [],
+        "meta": {
+          "versionId": "14586411-e390-40ad-91e2-82fa2ee7de9c",
+          "lastUpdated": "2021-01-27T09:27:02Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://hl7.org/fhir/SearchParameter/endDate",
+      "resource": {
+        "resourceType": "SearchParameter",
+        "id": "endDate",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          }
+        ],
+        "url": "http://hl7.org/fhir/SearchParameter/endDate",
+        "version": "4.0.0",
+        "name": "endDate",
+        "status": "draft",
+        "experimental": false,
+        "date": "2018-12-27T22:37:54+11:00",
+        "publisher": "SAP Health",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://hl7.org/fhir"
+              }
+            ]
+          },
+          {
+            "telecom": [
+              {
+                "system": "url",
+                "value": "http://www.hl7.org/Special/committees/fiwg/index.cfm"
+              }
+            ]
+          }
+        ],
+        "description": "A custom search profile that describes a specific defined query operation",
+        "code": "endDate",
+        "expression" : "ReviewAutomatedBilling.endDate",
+        "base": [
+          "ReviewAutomatedBilling"
+        ],
+        "type": "date",
+        "xpathUsage": "normal",
+        "multipleOr": true,
+        "multipleAnd": true,
+        "modifier": [],
+        "meta": {
+          "versionId": "14586411-e390-40ad-91e2-82fa2ee7de9c",
+          "lastUpdated": "2021-01-27T09:27:02Z"
+        }
+      }
+    }
+
+  ]
+}
